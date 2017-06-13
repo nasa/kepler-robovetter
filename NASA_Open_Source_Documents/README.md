@@ -1,0 +1,1 @@
+The document "Kepler Robovetter NASA Open Source Agreement.pdf" details NASA's open source agreement for this software. Any individuals wishing to contribute to this code must fill out either "Ind_CLA Kepler Robovetter.pdf" (individuals) or "Corp CLA Kepler Robovetter.pdf" (Corporations)
