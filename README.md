@@ -7,7 +7,7 @@ More information can be found at: https://exoplanetarchive.ipac.caltech.edu/docs
 
 ## Compiling and Running the Code
 
-The DR25 Robovetter code is provided, along with the necessary input files that contain every metric the Robovetter uses to make its decisions, and the resultant output files, so that users may validate their implementation.
+The DR25 Robovetter code is provided, along with the necessary input files that contain every metric the Robovetter uses to make its decisions, and the resultant output files, so that users may validate their implementation. (Note that input files are compressed using tar/gzip and and should be uncompressed via "tar xvzf FILENAME" before being used.)
 
 
 ### Prerequisites
