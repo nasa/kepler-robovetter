@@ -1,4 +1,4 @@
-# Project Title
+# The Kepler DR25 Robovetter
 
 The DR25 Kepler Robovetter is a robotic decision-making code that dispositions each Threshold Crossing Event (TCE) from the Kepler pipeline into Planet Candidates (PCs) and False Positives (FPs). The Robovetter also provides four major flags to designate each FP TCE as Not Transit-Like (NTL), a Stellar Eclipse (SS), a Centroid Offset (CO), and/or an Ephemeris Match (EM). It also produces a score ranging from 0.0 to 1.0 that indicates the Robovetter's disposition confidence, where 1.0 indicates strong confidence in PC, and 0.0 indicates strong confidence in FP. Finally, the Robovetter provides comments in a text string that indicate the specific tests each FP TCE fails and provides supplemental information on all TCEs as necessary.
 
