@@ -396,7 +396,8 @@ int main (int argc, char* argv[])
 
       // If it is the first iteration, save the major and minor flags.
       if(m==0)
-        data[n].disp_string = disp_pcfp + " " + to_string(data[n].not_transit_like) + " " + to_string(data[n].stellar_eclipse) + " " + to_string(data[n].centroid_offset) + " " + to_string(data[n].ephemeris_match) + " " + data[n].comments;
+        // data[n].disp_string = disp_pcfp + " " + to_string(data[n].not_transit_like) + " " + to_string(data[n].stellar_eclipse) + " " + to_string(data[n].centroid_offset) + " " + to_string(data[n].ephemeris_match) + " " + data[n].comments;
+        outfile << disp_pcfp << " " << data[n].not_transit_like << " " << data[n].stellar_eclipse << " " << data[n].centroid_offset << " " << data[n].ephemeris_match << " " << data[n].comments << "\n";
 
       // If it is the last iteration, write to the output file
       if(m==NMC)
