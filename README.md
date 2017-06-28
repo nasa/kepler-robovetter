@@ -12,10 +12,12 @@ The DR25 Robovetter code is provided, along with the necessary input files that 
 
 ### Prerequisites
 
-The code is written in C++11 and only requires the standard C++ library (specifically, the required libraries are iomainip, iostream, fstream, vector, and random). It has been tested to work with:
+The code is written in C++11 and only requires the standard C++ library (specifically, the required libraries are iomainip, iostream, fstream, vector, and random). It has been tested on Linux and Mac to work with:
   - The g++ complier (Minimum version 4.7.2 tested - earlier versions unlikely to work.)
   - The clang++ compiler (Versions 3.4 and 3.5 tested. Version 3.3 may work, but untested. Earlier than 3.3 will not work.)
   - The Intel icpc compiler (Version 17 tested. Earlier versions as far back as 11 very likely to work, but untested.)
+
+Note that Danley Hsu was able to compile and run the code on Windows, and he has graciously provided detailed instructions in the file https://github.com/nasa/kepler-robovetter/blob/master/windows-compile-instructions. These instructions have not been verified to work on another Windows machine, but we provide them in case anyone using a Windows machine finds them helpful.
 
 
 ### Compiling
