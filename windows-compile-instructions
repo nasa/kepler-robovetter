@@ -1,0 +1,17 @@
+The instructions below were written by Danley Hsu, who as part of a hack event at the 4th Kepler/K2 Science Conference was able to get the Robovetter to compile and run on Windows. They have not been verified to work on another Windows machine yet, but are provided in case anyone else finds them helpful in attempting to get the Robovetter to compile and run on Windows.
+
+
+1) Download the installer for MinGW-w64 on Sourceforge and install it: https://sourceforge.net/projects/mingw-w64/files/latest/download
+1a) During installation, make sure to choose the appropriate Architecture: 32-bit = i686 or 64-bit = x86_64
+
+2) Add the MinGW-w64 directory to the Windows "Path" environment variable: 
+2a) Control Panel -> System -> Advanced system settings -> Environment Variables... 
+2b) Under "User variables for <user>", select "Path" and click "Edit..." (it if doesn't exist, click "New..." to create the environment variable and name it "Path")
+2c) Add the path to the "bin" folder of MinGW-w64 to the environment variable (Default install path = "C:\Program Files\mingw-w64\<build_specifics>\mingw64\bin")
+
+3) Start up the Command Prompt (Run -> cmd.exe)
+
+4) Follow the regular instructions for compiling and running the Kepler Robovetter:
+4a) When compiling the C++ code, replace "g++" with "start g! ++"
+4b) When running the Robovetter, replace "./robovetter" with "robovetter.exe"
+4c) Note that you will need the appropriate archiving program to open up ".tar.gz" files for the included input files.
