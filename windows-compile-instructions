@@ -12,6 +12,6 @@ The instructions below were written by Danley Hsu, who as part of a hack event a
 3) Start up the Command Prompt (Run -> cmd.exe)
 
 4) Follow the regular instructions for compiling and running the Kepler Robovetter:
-4a) When compiling the C++ code, replace "g++" with "start g! ++"
+4a) When compiling the C++ code, replace "g++" with "start g++"
 4b) When running the Robovetter, replace "./robovetter" with "robovetter.exe"
 4c) Note that you will need the appropriate archiving program to open up ".tar.gz" files for the included input files.
