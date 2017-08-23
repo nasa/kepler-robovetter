@@ -282,7 +282,7 @@ int main (int argc, char* argv[])
     infilename = argv[1];
   else
     {
-    cout << "Name of intput file? ";
+    cout << "Name of input file? ";
     cin >> infilename;
     }
 
