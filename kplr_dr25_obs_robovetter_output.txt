@@ -1,4 +1,4 @@
-#1:TCE  2:Robovetter_Score  3:Disposition  4:Not_Transit-Like_Flag  5:Significant_Secondary_Flag  6:Centroid Offset_Flag  7:Ephemeris_Match_Flag  8:Minor_Descriptive_Flags
+#1:TCE  2:Robovetter_Score  3:Disposition  4:Not_Transit-Like_Flag  5:Stellar_Eclipse_Flag  6:Centroid Offset_Flag  7:Ephemeris_Match_Flag  8:Minor_Descriptive_Flags
 000757099-01 0.000 FP 1 0 0 0 LPP_DV---LPP_ALT---MOD_NONUNIQ_DV
 000757450-01 0.999 PC 0 0 0 0 
 000892376-01 0.000 FP 1 0 0 0 INDIV_TRANS_CHASES_MARSHALL---LPP_DV---ALL_TRANS_CHASES---MOD_NONUNIQ_DV---MOD_TER_DV---MOD_POS_DV---CENT_FEW_DIFFS

@@ -1,4 +1,4 @@
-#1:TCE  2:Robovetter_Score  3:Disposition  4:Not_Transit-Like_Flag  5:Significant_Secondary_Flag  6:Centroid Offset_Flag  7:Ephemeris_Match_Flag  8:Minor_Descriptive_Flags
+#1:TCE  2:Robovetter_Score  3:Disposition  4:Not_Transit-Like_Flag  5:Stellar_Eclipse_Flag  6:Centroid Offset_Flag  7:Ephemeris_Match_Flag  8:Minor_Descriptive_Flags
 000892667-01 0.000 FP 1 0 0 0 SWEET_NTL---LPP_DV
 000892667-02 0.000 FP 1 0 0 0 INDIV_TRANS_SKYE---TRANS_GAPPED---ALL_TRANS_CHASES---MOD_NONUNIQ_ALT---MOD_TER_ALT---INCONSISTENT_TRANS
 000892667-03 0.000 FP 1 0 1 0 INDIV_TRANS_RUBBLE---TRANS_GAPPED---LPP_DV---ALL_TRANS_CHASES---MOD_NONUNIQ_DV---MOD_NONUNIQ_ALT---MOD_POS_ALT---INCONSISTENT_TRANS---CENT_FEW_DIFFS---HALO_GHOST

@@ -1,4 +1,4 @@
-#1:TCE  2:Robovetter_Score  3:Disposition  4:Not_Transit-Like_Flag  5:Significant_Secondary_Flag  6:Centroid Offset_Flag  7:Ephemeris_Match_Flag  8:Minor_Descriptive_Flags
+#1:TCE  2:Robovetter_Score  3:Disposition  4:Not_Transit-Like_Flag  5:Stellar_Eclipse_Flag  6:Centroid Offset_Flag  7:Ephemeris_Match_Flag  8:Minor_Descriptive_Flags
 000757280-01 0.332 PC 0 0 0 0 CENT_FEW_DIFFS
 000891916-01 1.000 PC 0 0 0 0 
 000892195-01 0.005 FP 0 0 1 0 CENT_UNRESOLVED_OFFSET
