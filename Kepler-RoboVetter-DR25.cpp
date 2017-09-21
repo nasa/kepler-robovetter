@@ -310,7 +310,7 @@ int main (int argc, char* argv[])
   // Okay, let the dispositioning begin!
   cout << "Dispositioning..." << endl;
   outfile.open(outfilename.c_str());
-  outfile << "#1:TCE  2:Robovetter_Score  3:Disposition  4:Not_Transit-Like_Flag  5:Significant_Secondary_Flag  6:Centroid Offset_Flag  7:Ephemeris_Match_Flag  8:Minor_Descriptive_Flags" << endl;  // Print header line for output file
+  outfile << "#1:TCE  2:Robovetter_Score  3:Disposition  4:Not_Transit-Like_Flag  5:Stellar_Eclipse_Flag  6:Centroid Offset_Flag  7:Ephemeris_Match_Flag  8:Minor_Descriptive_Flags" << endl;  // Print header line for output file
 
   // Do the loop for the number of Monte Carlo runs.
   for(m=0;m<=NMC;m++)  // It is <=NMC because the 0th iteration is the 'nominal' run, and the 1->NMC runs are the runs used to compute scores
