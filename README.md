@@ -38,7 +38,7 @@ icpc    -std=c++11 -O2 -o robovet Kepler-RoboVetter-DR25.cpp
 
 Run as "./robovet INPUTFILE  OUTFILE  NMC"
 
-INPUTFILE is the name of the input file for a particular run. OBS is the Observed run. INV is the Inverted run. SCR1 is the Scrambled (ordering #1) run. INJ1 is the Injected group 1 run (on-target injected planets.) INJ2 is the Injected group 2 run (off-target planets.) INJ3 is the Injected group 3 run (Eclipsing Binaries).
+INPUTFILE is the name of the input file for a particular run. OBS is the Observed run. INV is the Inverted run. SCR1 is the Scrambled (ordering #1) run. SCR2 is the Scrambled (ordering #2) run. SCR3 is the Scrambled (ordering #3) run. INJ1 is the Injected group 1 run (on-target injected planets.) INJ2 is the Injected group 2 run (off-target planets.) INJ3 is the Injected group 3 run (Eclipsing Binaries). For more details on each run, see https://exoplanetarchive.ipac.caltech.edu/docs/KSCI-19114-001.pdf
 
 OUTFILE is the name of the output file, as desired by the user.
 
@@ -50,13 +50,19 @@ For example:
 ./robovet kplr_dr25_obs_robovetter_input.txt kplr_dr25_obs_robovetter_output.txt 10000
 ```
 
-will run the Robovetter on the OBS data, and perform 10,000 Monte Carlo runs to compute the score. The resulting output file should exactly match that provided in this GitHub repository. To replicate the other data sets (INV, SCR1, INJ1, INJ2, INJ3) one would use the following commands:
+will run the Robovetter on the OBS data, and perform 10,000 Monte Carlo runs to compute the score. The resulting output file should exactly match that provided in this GitHub repository. To replicate the other data sets (INV, SCR1, SCR2, SCR3, INJ1, INJ2, INJ3) one would use the following commands:
 
 ```
 ./robovet kplr_dr25_inv_robovetter_input.txt kplr_dr25_inv_robovetter_output.txt 10000
 ```
 ```
 ./robovet kplr_dr25_scr1_robovetter_input.txt kplr_dr25_scr1_robovetter_output.txt 10000
+```
+```
+./robovet kplr_dr25_scr2_robovetter_input.txt kplr_dr25_scr2_robovetter_output.txt 10000
+```
+```
+./robovet kplr_dr25_scr3_robovetter_input.txt kplr_dr25_scr3_robovetter_output.txt 10000
 ```
 ```
 ./robovet kplr_dr25_inj1_robovetter_input.txt kplr_dr25_inj1_robovetter_output.txt 10000
