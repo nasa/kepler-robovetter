@@ -82,7 +82,7 @@ In addition to the output file that is created, the code writes to the command l
 
 ## Acknowledgments
 
-Please reference Thompson et al. 2017 (in prep) if you make use of this code or the files provided.
+Please reference Thompson et al. 2018, ApJS, 235, 38 (http://adsabs.harvard.edu/abs/2018ApJS..235...38T) if you make use of this code or the files provided.
 
 
 ## Notices
