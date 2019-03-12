@@ -36,6 +36,7 @@
 #include <fstream>
 #include <vector>
 #include <random>
+#include <sstream>
 
 using namespace std;
 
@@ -264,6 +265,13 @@ struct datastruct  // Struct that holds all the data for each individual TCE
 vector <datastruct> data, dataorig;  // Use of vector allows for dynamic memory allocation
 int n;  // Global counting integer only used to loop through TCEs in the data vector
 
+template < typename T >
+std::string to_string( const T& n )
+{
+        std::ostringstream stm ;
+        stm << n ;
+        return stm.str() ;
+};
 
 // The main function where inputs are taken, the Robovetter is run, the Robovetter is re-run through the Monte Carlo to compute scores, and the result file is outputted
 int main (int argc, char* argv[])
